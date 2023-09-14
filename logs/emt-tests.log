@@ -18,3 +18,16 @@
 [2023-09-14 17:34:51,737] [14515] [main] INFO  com.tgr.selenium.abs.AbsTest - FIN    -----> ESPERA:5 / SEGUNDOS
 [2023-09-14 17:34:51,737] [14515] [main] INFO  com.tgr.selenium.abs.AbsTest - Captura de pantalla URL: https://www.tgr.cl/ - Nombre imagen: carga tgr.png
 [2023-09-14 17:34:53,637] [16415] [main] INFO  com.tgr.selenium.abs.AbsTest - INICIANDO @AFTER tearDown():com.tgr.script.tgr_web
+[2023-09-14 20:56:44,201] [0] [main] INFO  com.tgr.selenium.abs.AbsTest - INICIANDO @BEFORE setUp():com.tgr.script.tgr_web
+[2023-09-14 20:56:44,202] [1] [main] INFO  com.tgr.selenium.abs.AbsTest - setUp():ES WINDOWS
+[2023-09-14 20:56:45,120] [919] [main] INFO  com.tgr.selenium.abs.AbsTest - INICIANDO @AFTER tearDown():com.tgr.script.tgr_web
+[2023-09-14 20:57:43,686] [0] [main] INFO  com.tgr.selenium.abs.AbsTest - INICIANDO @BEFORE setUp():com.tgr.script.tgr_web
+[2023-09-14 20:57:43,687] [1] [main] INFO  com.tgr.selenium.abs.AbsTest - setUp():ES WINDOWS
+[2023-09-14 20:57:44,644] [958] [main] INFO  com.tgr.javaee.propiedades.DatosSistema - Obtener Propiedades - init
+[2023-09-14 20:57:44,645] [959] [main] INFO  com.tgr.javaee.propiedades.DatosSistema - Cargar Propiedades - end
+[2023-09-14 20:57:44,645] [959] [main] INFO  com.tgr.javaee.propiedades.DatosSistema - Obtener Propiedades - end
+[2023-09-14 20:57:44,645] [959] [main] INFO  com.tgr.javaee.propiedades.DatosSistema - Obtener Propiedades - end
+[2023-09-14 20:57:47,367] [3681] [main] INFO  com.tgr.selenium.abs.AbsTest - INICIO -----> ESPERA:5 / SEGUNDOS
+[2023-09-14 20:57:52,378] [8692] [main] INFO  com.tgr.selenium.abs.AbsTest - FIN    -----> ESPERA:5 / SEGUNDOS
+[2023-09-14 20:57:52,378] [8692] [main] INFO  com.tgr.selenium.abs.AbsTest - Captura de pantalla URL: https://www.tgr.cl/ - Nombre imagen: carga tgr.png
+[2023-09-14 20:57:52,896] [9210] [main] INFO  com.tgr.selenium.abs.AbsTest - INICIANDO @AFTER tearDown():com.tgr.script.tgr_web

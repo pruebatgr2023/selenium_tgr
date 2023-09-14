@@ -1,13 +1,20 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=6b5316cd3a869eb6b00fe84d9ad460e18825e28d
 eclipse.preferences.version=1
-org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.7
-org.eclipse.jdt.core.compiler.compliance=1.7
+org.eclipse.jdt.core.compiler.annotation.nonnull=javax.annotation.Nonnull
+org.eclipse.jdt.core.compiler.annotation.nullable=javax.annotation.Nullable
+org.eclipse.jdt.core.compiler.annotation.nullanalysis=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+org.eclipse.jdt.core.compiler.compliance=1.8
 org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled
 org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning
+org.eclipse.jdt.core.compiler.problem.nullAnnotationInferenceConflict=warning
+org.eclipse.jdt.core.compiler.problem.nullReference=warning
+org.eclipse.jdt.core.compiler.problem.nullSpecViolation=warning
+org.eclipse.jdt.core.compiler.problem.potentialNullReference=warning
 org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=ignore
-<<<<<<< HEAD
-=======
 org.eclipse.jdt.core.compiler.problem.syntacticNullAnalysisForFields=enabled
-org.eclipse.jdt.core.compiler.processAnnotations=enabled
->>>>>>> 6b5316cd3a869eb6b00fe84d9ad460e18825e28d
+org.eclipse.jdt.core.compiler.processAnnotations=disabled
 org.eclipse.jdt.core.compiler.release=disabled
-org.eclipse.jdt.core.compiler.source=1.7
+org.eclipse.jdt.core.compiler.source=1.8
