@@ -23,7 +23,7 @@ public class tgr_web extends AbsTest {
 	public void test() throws Exception {
         //carga url
 		driver.get("https://www.tgr.cl/");
-		//driver.manage().window().maximize(); // solo para phantom
+		driver.manage().window().maximize(); // solo para phantom
 		waitSleep(5);
 		capturarPantalla(driver,"carga tgr");
 		
