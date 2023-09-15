@@ -29,6 +29,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -171,6 +172,17 @@ public class AbsTest {
 				+ EXTENSION_IMAGEN);
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(scrFile, new File("./screenshots/" + nombreImagen + EXTENSION_IMAGEN));
+	}
+    /**
+     * @param driver
+     */
+    public void maximizarventana (WebDriver driver) {
+		try {
+			driver.manage().window().maximize();
+			System.out.println("ventana de navegador maximizada");
+			} catch (WebDriverException e) {
+			System.out.println("Error ventana  maximizada");
+		}
 	}
 
 	public void Disabled(String xpath) {
