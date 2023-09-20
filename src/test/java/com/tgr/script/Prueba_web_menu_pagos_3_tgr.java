@@ -15,9 +15,9 @@ public class Prueba_web_menu_pagos_3_tgr extends AbsTest {
 	@Test
 	public void test() throws Exception {
 
-		//((JavascriptExecutor) driver).executeScript("localStorage.clear();");
+		//carga url
 		driver.get("https://www.tgr.cl");
-		//driver.manage().window().maximize(); // solo para phantom
+		//configura tamaño de la pantalla
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
 

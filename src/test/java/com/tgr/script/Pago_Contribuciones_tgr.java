@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.Set;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import com.tgr.javaee.propiedades.DatosSistema;
@@ -13,10 +14,13 @@ public class Pago_Contribuciones_tgr extends AbsTest {
 
 	@Test
 	public void test() throws Exception {
-
-		//((JavascriptExecutor) driver).executeScript("localStorage.clear();");
+        
+		//llama la url
 		driver.get("https://www.tgr.cl");
-		driver.manage().window().maximize(); // solo para phantom
+		//configura tamaño de la pantalla
+		Dimension dimension = new Dimension(1920, 1080);
+		driver.manage().window().setSize(dimension);
+		
 		
 		waitSleep(3);
 		capturarPantalla(driver,"paso 1 Ingresa a sitio web tgr");

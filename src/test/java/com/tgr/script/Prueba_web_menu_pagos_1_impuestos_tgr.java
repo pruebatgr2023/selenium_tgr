@@ -15,14 +15,14 @@ public class Prueba_web_menu_pagos_1_impuestos_tgr extends AbsTest {
 	@Test
 	public void test() throws Exception {
 
-		//((JavascriptExecutor) driver).executeScript("localStorage.clear();");
+		//carga la url
 		driver.get("https://www.tgr.cl");
-		//driver.manage().window().maximize(); // solo para phantom
+		//configura el tamaño de la pantalla
 		Dimension dimension = new Dimension(1920, 1080);
 		driver.manage().window().setSize(dimension);
 
 		waitSleep(3);
-		capturarPantalla(driver, " Paso 01 " + "Ingresa a sitio web");
+		capturarPantalla(driver, " Paso 01 Ingresa a sitio web");
 
 		//ingresa al menu pagos > multas, patentes y otros
 		driver.findElement(By.xpath("//body/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]/span[1]")).click();
