@@ -18,7 +18,7 @@ public class Prueba_web_menu_pagos_3_tgr extends AbsTest {
 		//carga url
 		driver.get("https://www.tgr.cl");
 		//configura tamaño de la pantalla
-		Dimension dimension = new Dimension(1920, 1080);
+		Dimension dimension = new Dimension(1280, 920);
 		driver.manage().window().setSize(dimension);
 
 		waitSleep(3);

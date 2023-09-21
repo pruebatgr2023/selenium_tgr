@@ -26,7 +26,7 @@ public class tgr_web extends AbsTest {
 		maximizarventana(driver); 
 		waitSleep(5);
 
-		Dimension dimension = new Dimension(1920, 1080);
+		Dimension dimension = new Dimension(1280, 920);
 		driver.manage().window().setSize(dimension);
 
 		capturarPantalla(driver,"carga tgr");

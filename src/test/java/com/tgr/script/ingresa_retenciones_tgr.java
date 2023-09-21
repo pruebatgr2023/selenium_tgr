@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.Set;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import com.tgr.javaee.propiedades.DatosSistema;
@@ -15,13 +16,11 @@ public class ingresa_retenciones_tgr extends AbsTest {
 	@Test
 	public void test() throws Exception {
 
-		
-		driver.get("about:blank");
-		driver.manage().deleteAllCookies();
 		driver.get(urlApp);
-		((JavascriptExecutor) driver).executeScript("localStorage.clear();");
-		driver.get(urlApp);
-		driver.manage().window().maximize(); // solo para phantom
+		//configura tamaño de la pantalla
+		Dimension dimension = new Dimension(1280, 920);
+		driver.manage().window().setSize(dimension);
+	
 	
 			
 		capturarPantalla(driver,"paso 1 Ingresa a sistema gestion");
