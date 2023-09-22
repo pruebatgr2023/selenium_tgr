@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 C:\Users\Emerg\selenium_tgr\src\test\java\com\tgr\javaee\propiedades\DatosNegocio.java
 C:\Users\Emerg\selenium_tgr\src\test\java\com\tgr\script\tgr_web.java
 C:\Users\Emerg\selenium_tgr\src\test\java\com\tgr\script\Prueba_web_menu_pagos_1_impuestos_tgr.java
@@ -13,19 +12,3 @@ C:\Users\Emerg\selenium_tgr\src\test\java\com\tgr\javaee\utils\Imagenes.java
 C:\Users\Emerg\selenium_tgr\src\test\java\com\tgr\script\Prueba_web_menu_pagos_3_multas_tgr.java
 C:\Users\Emerg\selenium_tgr\src\test\java\com\tgr\script\ingresa_retenciones_tgr.java
 C:\Users\Emerg\selenium_tgr\src\test\java\com\tgr\script\Pago_Contribuciones_tgr.java
-=======
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\script\Prueba_web_menu_pagos_1_impuestos_tgr.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\script\Pago_Contribuciones_tgr.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\javaee\propiedades\DatosNegocio.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\script\elimina_retenciones_tgr.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\script\Fondo_retiro_tgr2.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\script\tgr_web.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\script\ingresa_retenciones_tgr.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\selenium\abs\AbsTest.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\script\Prueba_web_menu_pagos_2_convenio_Pago_tgr.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\script\Prueba_web_menu_pagos_3_tgr.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\javaee\utils\Imagenes.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\javaee\propiedades\DatosSistema.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\script\apoyo_egresos_tgr.java
-C:\Users\Diego\selenium_tgr\src\test\java\com\tgr\script\Prueba_web_menu_pagos_3_multas_tgr.java
->>>>>>> abbd13576dd304ba161f11b78ef9c65665ce9e47

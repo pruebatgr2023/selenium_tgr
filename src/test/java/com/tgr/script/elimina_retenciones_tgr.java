@@ -104,7 +104,7 @@ public class elimina_retenciones_tgr extends AbsTest {
 		//selecciona direccion envio
 		driver.findElement(By.xpath("//tbody/tr[1]/td[2]/select[1]")).click();
 		driver.findElement(By.xpath("//tbody/tr[1]/td[2]/select[1]")).sendKeys(Keys.ARROW_DOWN);
-		//driver.findElement(By.xpath("//tbody/tr[1]/td[2]/select[1]")).sendKeys(Keys.ENTER);
+		driver.findElement(By.xpath("//tbody/tr[1]/td[2]/select[1]")).sendKeys(Keys.ENTER);
 		waitSleep(2);
 		//boton continuar
 		driver.findElement(By.xpath("//tbody/tr[1]/td[1]/div[1]/input[1]")).click();
