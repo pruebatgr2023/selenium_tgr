@@ -5,7 +5,6 @@ import java.util.Set;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import com.tgr.javaee.propiedades.DatosSistema;
 import com.tgr.selenium.abs.AbsTest;

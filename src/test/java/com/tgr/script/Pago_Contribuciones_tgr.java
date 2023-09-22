@@ -42,7 +42,7 @@ public class Pago_Contribuciones_tgr extends AbsTest {
 		driver.findElement(By.xpath("/html[1]/body[1]/section[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/p[1]/a[1]")).click();
 
 		//selecciona otra pestaña
-		String parentWindowHandler = driver.getWindowHandle(); // Almacena tu ventana actual
+	//	String parentWindowHandler = driver.getWindowHandle(); // Almacena tu ventana actual
 		String subWindowHandler = null;
 
 		Set<String> handles = driver.getWindowHandles(); // Obten todas las ventana abiertas
