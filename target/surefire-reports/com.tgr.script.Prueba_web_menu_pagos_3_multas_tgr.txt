@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.tgr.script.Prueba_web_menu_pagos_3_multas_tgr
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 184.8 s -- in com.tgr.script.Prueba_web_menu_pagos_3_multas_tgr
