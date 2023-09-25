@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.tgr.script.ingresa_retenciones_tgr
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 67.70 s -- in com.tgr.script.ingresa_retenciones_tgr

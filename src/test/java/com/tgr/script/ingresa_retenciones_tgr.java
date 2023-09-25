@@ -142,7 +142,7 @@ public class ingresa_retenciones_tgr extends AbsTest {
 		//selecciona direccion envio
 		driver.findElement(By.xpath("/html/body/table/tbody/tr/td/form/table[3]/tbody/tr[8]/td[3]/table[1]/tbody/tr/td[2]/select")).click();
 		driver.findElement(By.xpath("/html/body/table/tbody/tr/td/form/table[3]/tbody/tr[8]/td[3]/table[1]/tbody/tr/td[2]/select")).sendKeys(Keys.ARROW_DOWN);
-		//driver.findElement(By.xpath("/html/body/table/tbody/tr/td/form/table[3]/tbody/tr[8]/td[3]/table[1]/tbody/tr/td[2]/select")).sendKeys(Keys.ENTER);
+		driver.findElement(By.xpath("/html/body/table/tbody/tr/td/form/table[3]/tbody/tr[8]/td[3]/table[1]/tbody/tr/td[2]/select")).sendKeys(Keys.ENTER);
 		waitSleep(2); //carga pagina de conformar datos
 		capturarPantalla(driver,"paso 16 Retenciones y Compensaciones confirmar datos");
 		//selecciona btn continuar
