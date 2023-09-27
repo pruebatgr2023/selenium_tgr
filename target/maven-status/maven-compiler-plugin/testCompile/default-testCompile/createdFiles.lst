@@ -1,0 +1,14 @@
+com\tgr\script\Pago_Contribuciones_tgr.class
+com\tgr\selenium\abs\AbsTest.class
+com\tgr\script\Prueba_web_menu_pagos_2_convenio_Pago_tgr.class
+com\tgr\script\ingresa_retenciones_tgr.class
+com\tgr\javaee\utils\Imagenes.class
+com\tgr\script\apoyo_egresos_tgr.class
+com\tgr\script\Prueba_web_menu_pagos_3_multas_tgr.class
+com\tgr\javaee\propiedades\DatosNegocio.class
+com\tgr\script\Prueba_web_menu_pagos_1_impuestos_tgr.class
+com\tgr\script\elimina_retenciones_tgr.class
+com\tgr\script\Prueba_web_menu_pagos_3_tgr.class
+com\tgr\javaee\propiedades\DatosSistema.class
+com\tgr\script\Fondo_retiro_tgr2.class
+com\tgr\script\tgr_web.class

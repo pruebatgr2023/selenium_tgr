@@ -27,8 +27,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.tgr.javaee.propiedades.DatosSistema;
 
 public class AbsTest {
-			
-		
 
 	private static final Logger LOGGER = Logger.getLogger(AbsTest.class);
 	private static final String EXTENSION_IMAGEN = ".png";
@@ -51,17 +49,16 @@ public class AbsTest {
 		if (operationSystem.indexOf("win") >= 0) {
 			LOGGER.info("setUp():ES WINDOWS");
 
-			//chrome windows
-		 	System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/chromedriver.exe");
-		 	ChromeOptions options = new ChromeOptions();
-		 	options.addArguments("--start-maximized");
-		 	driver = new ChromeDriver( options );	
-		 	urlApp = DatosSistema.getDatoProperties("url");
-		 	driver.manage().timeouts().implicitlyWait(DatosSistema.getDatoPropertiesInt("timeOut"), TimeUnit.SECONDS);
-		    } else if (operationSystem.indexOf("nix") >= 0 || operationSystem.indexOf("nux") >= 0
-		 		|| operationSystem.indexOf("aix") > 0) {
-		 	LOGGER.info("setUp():ES LINUX");
-			
+			// chrome windows
+			System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/chromedriver.exe");
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--start-maximized");
+			driver = new ChromeDriver(options);
+
+		} else if (operationSystem.indexOf("nix") >= 0 || operationSystem.indexOf("nux") >= 0
+				|| operationSystem.indexOf("aix") > 0) {
+			LOGGER.info("setUp():ES LINUX");
+
 			urlApp = DatosSistema.getDatoProperties("url");
 			driver.manage().timeouts().implicitlyWait(DatosSistema.getDatoPropertiesInt("timeOut"), TimeUnit.SECONDS);
 		} else {
@@ -115,14 +112,15 @@ public class AbsTest {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(scrFile, new File("./screenshots/" + nombreImagen + EXTENSION_IMAGEN));
 	}
-    /**
-     * @param driver
-     */
-    public void maximizarventana (WebDriver driver) {
+
+	/**
+	 * @param driver
+	 */
+	public void maximizarventana(WebDriver driver) {
 		try {
 			driver.manage().window().maximize();
 			System.out.println("ventana de navegador maximizada");
-			} catch (WebDriverException e) {
+		} catch (WebDriverException e) {
 			System.out.println("Error ventana  maximizada");
 		}
 	}
@@ -136,6 +134,7 @@ public class AbsTest {
 		wait.until(ExpectedConditions.elementToBeClickable(yourButton));
 		yourButton.click();
 	}
+
 	public void srollElement(String xpath) {
 		WebElement yourButton = driver.findElement(By.xpath(xpath));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -154,18 +153,18 @@ public class AbsTest {
 		js.executeScript("arguments[0].setAttribute('checked','true')", yourButton);
 		js.executeScript("arguments[0].setAttribute('checked', 'checked')", yourButton);
 	}
-	
+
 	// Compara texto primer texto corresponde a UTF
-		protected void compara(String texto1, String texto2) {
-			try {
-				// String textoUTF = cambiaTexto(texto1);
-				// assertEquals(textoUTF, texto2);
-				assertEquals(texto1, texto2);
-			} catch (Exception e) {
-				LOGGER.error("compara(), exception,", e);
-	    }
-     }
-	
+	protected void compara(String texto1, String texto2) {
+		try {
+			// String textoUTF = cambiaTexto(texto1);
+			// assertEquals(textoUTF, texto2);
+			assertEquals(texto1, texto2);
+		} catch (Exception e) {
+			LOGGER.error("compara(), exception,", e);
+		}
+	}
+
 	public void button(String xpath) {
 		driver.switchTo().activeElement();
 		WebElement yourButton = driver.findElement(By.xpath(xpath));
@@ -175,25 +174,24 @@ public class AbsTest {
 		wait.until(ExpectedConditions.elementToBeClickable(yourButton));
 		yourButton.click();
 	}
-              //scrool abajo
+
+	// scrool abajo
 	public void scroll() throws IOException {
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-		//capturarPantalla(driver, "sroll " + hora);
+		// capturarPantalla(driver, "sroll " + hora);
 	}
-	        //scrool arriba
+
+	// scrool arriba
 	public void scrollUp() throws IOException {
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
 		js.executeScript("window.scrollTo(document.body.scrollHeight,0 )");
-		//capturarPantalla(driver, "sroll " + hora);
-		
+		// capturarPantalla(driver, "sroll " + hora);
+
 		Calendar calendario = new GregorianCalendar();
 		hora = calendario.get(Calendar.HOUR_OF_DAY);
 		fecha = calendario.get(Calendar.DATE);
-		
+
 	}
-	
-	
-	
-	
+
 }
