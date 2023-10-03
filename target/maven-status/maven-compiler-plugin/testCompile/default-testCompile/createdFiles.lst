@@ -1,0 +1,9 @@
+com\tgr\selenium\abs\AbsTest.class
+com\tgr\script\ingresa_retenciones_test.class
+com\tgr\javaee\utils\Imagenes.class
+com\tgr\javaee\propiedades\DatosNegocio.class
+com\tgr\script\Pago_Contribuciones_prod.class
+com\tgr\script\apoyo_egresos_test.class
+com\tgr\javaee\propiedades\DatosSistema.class
+com\tgr\script\Prueba_web_menu_pagos_3_prod.class
+com\tgr\script\Prueba_web_menu_pagos_2_convenio_Pago_prod.class
