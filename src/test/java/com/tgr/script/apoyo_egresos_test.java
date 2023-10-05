@@ -14,7 +14,7 @@ public class apoyo_egresos_test extends AbsTest {
 	@Test
 	public void test() throws Exception {
 
-		driver.get(urlApp);
+		driver.get("http://192.168.24.100/SistemaGestionNewWeb/index");
 		// configura tamaño de la pantalla
 		Dimension dimension = new Dimension(1280, 920);
 		driver.manage().window().setSize(dimension);
