@@ -56,7 +56,7 @@ public class benDev_bendev_prod extends AbsTest {
 		waitSleep(2);
 
 		// sigue con la ejecucion en la 2da pestaña
-		compara(driver.findElement(By.xpath("/html[1]/body[1]/form[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]")).getText(), "Información ");
+		compara(driver.findElement(By.xpath("/html[1]/body[1]/form[1]/footer[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h4[1]")).getText(), "Servicios de la DTPR");
 
 		//se cambia a la primera pestaña
 		driver.switchTo().window(parentWindowHandler);
