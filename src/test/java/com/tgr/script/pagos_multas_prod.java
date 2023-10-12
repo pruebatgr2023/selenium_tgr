@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import com.tgr.selenium.abs.AbsTest;
 
-public class Prueba_web_menu_pagos_3_multas_prod extends AbsTest {
+public class pagos_multas_prod extends AbsTest {
 
 	/**
 	 * @throws Exception
