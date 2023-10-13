@@ -23,6 +23,7 @@ public class benDev_consulta_prod extends AbsTest {
 		driver.manage().window().setSize(dimension);
 
 		waitSleep(3);
+
 		// ingresa al menu beneficios y deboluciones> consultas
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/a[1]/span[1]")).click();
@@ -61,6 +62,7 @@ public class benDev_consulta_prod extends AbsTest {
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[1]/ul[1]/li[6]/a[1]/span[1]")).click();
 		waitSleep(5);
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -69,6 +71,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Beneficio Trabajadores Portuarios Eventuales
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[1]/ul[1]/li[7]/a[1]/span[1]")).click();
 		isElementPresent(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[2]/div[1]/a[1]/b[1]"));
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -84,6 +87,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Bonificación Forestal y Bosque Nativo
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[1]/ul[1]/li[9]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -92,6 +96,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Bonificación APV Ley 3.500
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[1]/ul[1]/li[10]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -100,6 +105,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Comisión Nacional de Riego CNR, SUBPESCA y Portuarios
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[1]/ul[1]/li[11]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -115,6 +121,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Remanente de IVA Crédito (Nuevo)
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[1]/ul[1]/li[13]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -131,6 +138,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Solicitar el estado de la devolución del Impuesto Verde a taxistas (Ley 20.780)
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[2]/ul[1]/li[1]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -139,6 +147,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Deudas Compensadas
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[2]/ul[1]/li[2]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -147,6 +156,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Retenciones Crédito Universitario
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[2]/ul[1]/li[3]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -155,6 +165,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Estado Reintegro Leyes 18.708-19.240
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[2]/ul[1]/li[4]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -170,6 +181,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Devolución Pagos Sence
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[2]/ul[1]/li[7]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -185,6 +197,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Fomento Empleo Ley 20.330
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[2]/ul[1]/li[9]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -200,6 +213,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Devolución Contribuciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[2]/ul[1]/li[11]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -208,6 +222,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Otras Devoluciones de IVA
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[2]/ul[1]/li[12]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
@@ -216,6 +231,7 @@ public class benDev_consulta_prod extends AbsTest {
 		//Otras Devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[2]/ul[1]/li[13]/a[1]/span[1]")).click();
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
+		waitSleep(15);
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
