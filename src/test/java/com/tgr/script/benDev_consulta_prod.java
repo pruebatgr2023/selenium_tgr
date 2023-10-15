@@ -1,8 +1,5 @@
 package com.tgr.script;
 
-import java.util.Iterator;
-import java.util.Set;
-
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
