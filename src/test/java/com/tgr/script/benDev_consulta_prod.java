@@ -69,7 +69,7 @@ public class benDev_consulta_prod extends AbsTest {
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[1]/ul[1]/li[7]/a[1]/span[1]")).click();
 		isElementPresent(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[2]/div[1]/a[1]/b[1]"));
 		waitSleep(15);
-		//driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
+		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[4]/div[1]/a[1]/label[1]/strong[1]")).click();
 		// ingresa al menu beneficios y devoluciones > beneficios y devoluciones
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]/span[1]")).click();
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[5]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/ul[1]/li[1]/ul[1]/li[2]/a[1]")).click();
