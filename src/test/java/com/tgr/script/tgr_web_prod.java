@@ -9,7 +9,7 @@ public class tgr_web_prod extends AbsTest {
 	@Test
 	public void test() throws Exception {
 		// carga url
-		driver.get("https://www.tgr.cl/");
+		driver.get("www.tgr.cl");
 		maximizarventana(driver);
 		waitSleep(5);
 

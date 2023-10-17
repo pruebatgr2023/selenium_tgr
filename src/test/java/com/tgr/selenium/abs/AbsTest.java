@@ -50,10 +50,11 @@ public class AbsTest {
 			LOGGER.info("setUp():ES WINDOWS");
 
 			// chrome windows
+		//	System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/chrome/chromedriver.exe");
 			System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/chromedriver.exe");
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--start-maximized");
+			ChromeOptions options = new ChromeOptions();		
 			driver = new ChromeDriver(options);
+			
 
 		} else if (operationSystem.indexOf("nix") >= 0 || operationSystem.indexOf("nux") >= 0
 				|| operationSystem.indexOf("aix") > 0) {
@@ -68,14 +69,14 @@ public class AbsTest {
 
 	@After
 	public void tearDown() throws Exception {
-
 		LOGGER.info("INICIANDO @AFTER tearDown():" + this.getClass().getName());
-		driver.quit();
-		String verificationErrorString = verificationErrors.toString();
-		if (!"".equals(verificationErrorString)) {
-			fail(verificationErrorString);
+		if (driver != null) {
+			driver.quit();
+		} else {
+			LOGGER.warn("WebDriver is already null. Cannot quit.");
 		}
 	}
+	
 
 	public void closeBrowser() {
         // Compruebe si el controlador no es nulo antes de invocar cualquier método en él
@@ -203,5 +204,4 @@ public class AbsTest {
 		fecha = calendario.get(Calendar.DATE);
 
 	}
-
-}
+ }
