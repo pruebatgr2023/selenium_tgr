@@ -75,8 +75,7 @@ public class Pago_Contribuciones_prod extends AbsTest {
 		capturarPantalla(driver, "paso 6 ingresa a pantalla busca propiedades");
 
 		// salida
-		driver.manage().deleteAllCookies();
-		driver.quit();
+		closeBrowser();
 
 	}
 

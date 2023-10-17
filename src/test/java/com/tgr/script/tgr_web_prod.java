@@ -18,8 +18,7 @@ public class tgr_web_prod extends AbsTest {
 
 		capturarPantalla(driver, "carga tgr");
 
-		driver.manage().deleteAllCookies();
-		driver.quit();
+		closeBrowser();
 
 	}
 

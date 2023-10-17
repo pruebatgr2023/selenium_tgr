@@ -239,7 +239,6 @@ public class benDev_consulta_prod extends AbsTest {
 		compara(driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/app-idp[1]/div[1]/div[1]/div[1]/h1[1]/b[1]")).getText(), "Te damos la bienvenida");
 		
 		// salida
-		driver.manage().deleteAllCookies();
-		driver.quit();
+		closeBrowser();
 	}
 }

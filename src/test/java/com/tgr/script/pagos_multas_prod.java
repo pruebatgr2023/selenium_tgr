@@ -264,7 +264,6 @@ public class pagos_multas_prod extends AbsTest {
 				.click();
 
 		// salida
-		driver.manage().deleteAllCookies();
-		driver.quit();
+		closeBrowser();
 	}
 }

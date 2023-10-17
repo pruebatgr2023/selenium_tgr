@@ -60,7 +60,7 @@ public class AbsTest {
 			LOGGER.info("setUp():ES LINUX");
 
 			urlApp = DatosSistema.getDatoProperties("url");
-			driver.manage().timeouts().implicitlyWait(DatosSistema.getDatoPropertiesInt("timeOut"), TimeUnit.SECONDS);
+			
 		} else {
 			throw new Exception("Error al setear el Sistema operativo");
 		}
@@ -76,6 +76,16 @@ public class AbsTest {
 			fail(verificationErrorString);
 		}
 	}
+
+	public void closeBrowser() {
+        // Compruebe si el controlador no es nulo antes de invocar cualquier método en él
+        if (driver != null) {
+            // Sale del WebDriver cuando haya terminado
+            driver.quit();
+        } else {
+            System.out.println("WebDriver is already null. Cannot quit.");
+        }
+    }
 
 	protected boolean isElementPresent(By by) {
 		try {

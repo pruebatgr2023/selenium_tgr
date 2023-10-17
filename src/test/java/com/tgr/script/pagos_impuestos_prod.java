@@ -129,7 +129,6 @@ public class pagos_impuestos_prod extends AbsTest {
         isElementPresent(By.xpath("/html[1]/body[1]/section[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]"));
 
 		// salida
-		driver.manage().deleteAllCookies();
-		driver.quit();
+		closeBrowser();
 	}
 }
