@@ -50,12 +50,13 @@ public class AbsTest {
 			LOGGER.info("setUp():ES WINDOWS");
 
 			// chrome windows
-		//	System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/chrome/chromedriver.exe");
 			System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();		
 			driver = new ChromeDriver(options);
-			
 
+			//chrome linux
+			System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/linux65/chromedriver");
+			
 		} else if (operationSystem.indexOf("nix") >= 0 || operationSystem.indexOf("nux") >= 0
 				|| operationSystem.indexOf("aix") > 0) {
 			LOGGER.info("setUp():ES LINUX");
