@@ -1,12 +1,10 @@
 package com.tgr.selenium.abs;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
 import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.junit.After;
@@ -53,13 +51,13 @@ public class AbsTest {
 			System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();		
 			driver = new ChromeDriver(options);
-
-			//chrome linux
-			System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/linux65/chromedriver");
 			
 		} else if (operationSystem.indexOf("nix") >= 0 || operationSystem.indexOf("nux") >= 0
 				|| operationSystem.indexOf("aix") > 0) {
 			LOGGER.info("setUp():ES LINUX");
+
+				//chrome linux
+				System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/linux65/chromedriver");
 
 			urlApp = DatosSistema.getDatoProperties("url");
 			
