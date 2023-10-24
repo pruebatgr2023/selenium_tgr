@@ -56,12 +56,10 @@ public class AbsTest {
 				|| operationSystem.indexOf("aix") > 0) {
 			LOGGER.info("setUp():ES LINUX");
 
-				//chrome linux
-
-				// Configura el controlador de Chrome para Linux
-				System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/linux64/chromedriver");
-				this.driver = new ChromeDriver(); // Asigna el valor al miembro de la clase
-				urlApp = DatosSistema.getDatoProperties("url");
+			//chrome linux
+			System.setProperty("webdriver.chrome.driver", "./src/main/resources/Runners/linux64/chromedriver");
+			this.driver = new ChromeDriver(); // Asigna el valor al miembro de la clase
+			urlApp = DatosSistema.getDatoProperties("url");
 			
 		} else {
 			throw new Exception("Error al setear el Sistema operativo");
