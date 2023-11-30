@@ -5,6 +5,8 @@ import java.util.Set;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Keys;
+
 import com.tgr.selenium.abs.AbsTest;
 
 public class Pago_Contribuciones_prod extends AbsTest {
@@ -69,11 +71,23 @@ public class Pago_Contribuciones_prod extends AbsTest {
 		capturarPantalla(driver, "paso 5 pagina buscar propiedades");
 
 		// ingresa a pantalla busca propiedades
+			//ingresa comuna
+		driver.findElement(By.className("mdl-textfield__input")).click();
+		waitSleep(3);
+		driver.findElement(By.className("mdl-textfield__input")).sendKeys("ovalle");
+        waitSleep(3);
+		driver.findElement(By.className("mdl-textfield__input")).sendKeys(Keys.ENTER);
+		waitSleep(3);
 
-		isElementPresent(By.xpath(
-				"/html/body/app-root/app-main/mdl-layout/div/div/mdl-layout-content/app-agregar/app-agregar-nueva/div[1]/div/h5"));
-		capturarPantalla(driver, "paso 6 ingresa a pantalla busca propiedades");
-
+				//ingresa rol
+		driver.findElement(By.xpath("/html/body/app-root/app-main/mdl-layout/div/div/mdl-layout-content/app-agregar/app-agregar-nueva/div[2]/div/div[3]/div/div[2]/form/div[2]/mdl-textfield[1]/div/input")).sendKeys("3098");
+        waitSleep(2);
+		driver.findElement(By.xpath("/html/body/app-root/app-main/mdl-layout/div/div/mdl-layout-content/app-agregar/app-agregar-nueva/div[2]/div/div[3]/div/div[2]/form/div[2]/mdl-textfield[2]/div/input")).sendKeys("4");
+		driver.findElement(By.xpath("/html/body/app-root/app-main/mdl-layout/div/div/mdl-layout-content/app-agregar/app-agregar-nueva/div[2]/div/div[3]/div/div[2]/form/div[2]/span")).click();
+        waitSleep(2);
+		//realiza busqueda
+		driver.findElement(By.xpath("/html/body/app-root/app-main/mdl-layout/div/div/mdl-layout-content/app-agregar/app-agregar-nueva/div[2]/div/div[3]/div/div[2]/form/div[3]/button")).click();
+		waitSleep(5);
 		// salida
 		closeBrowser();
 
