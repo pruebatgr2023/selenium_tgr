@@ -1,14 +1,4 @@
 com\tgr\selenium\abs\AbsTest.class
-com\tgr\script\pagos_multas_prod.class
-com\tgr\script\elimina_retenciones_test.class
-com\tgr\script\ingresa_retenciones_test.class
 com\tgr\javaee\utils\Imagenes.class
 com\tgr\script\tgr_web_prod.class
-com\tgr\script\pagos_impuestos_prod.class
-com\tgr\javaee\propiedades\DatosNegocio.class
-com\tgr\script\Pago_Contribuciones_prod.class
-com\tgr\script\apoyo_egresos_test.class
-com\tgr\script\benDev_bendev_prod.class
-com\tgr\script\benDev_consulta_prod.class
 com\tgr\javaee\propiedades\DatosSistema.class
-com\tgr\script\pagos_convenio_Pago_prod.class

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TGR Selenium Suite">
+  <test name="Selenium Tests">
+    <packages>
+      <package name="com.tgr.javaee.script"/>
+      <package name="com.tgr.selenium.abs"/>
+    </packages>
+  </test>
+</suite>

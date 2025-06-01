@@ -1,6 +1,7 @@
 package com.tgr.script;
-
-import org.junit.Test;
+import com.aventstack.extentreports.*;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import org.testng.annotations.*;
 import org.openqa.selenium.Dimension;
 import com.tgr.selenium.abs.AbsTest;
 

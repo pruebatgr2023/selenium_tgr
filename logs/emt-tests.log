@@ -1,0 +1,10 @@
+[2025-05-28 15:18:41,028] [0] [main] INFO  com.tgr.selenium.abs.AbsTest - INICIANDO @BEFORE setUp():com.tgr.script.tgr_web_prod
+[2025-05-28 15:18:41,029] [1] [main] INFO  com.tgr.selenium.abs.AbsTest - setUp():ES WINDOWS
+[2025-05-28 15:18:42,317] [1289] [main] INFO  com.tgr.selenium.abs.AbsTest - INICIANDO @AFTER tearDown():com.tgr.script.tgr_web_prod
+[2025-05-28 15:18:42,317] [1289] [main] WARN  com.tgr.selenium.abs.AbsTest - WebDriver is already null. Cannot quit.
+[2025-05-28 16:12:21,880] [0] [main] INFO  com.tgr.selenium.abs.AbsTest - INICIANDO @BEFORE setUp():com.tgr.script.tgr_web_prod
+[2025-05-28 16:12:21,882] [2] [main] INFO  com.tgr.selenium.abs.AbsTest - setUp():ES WINDOWS
+[2025-05-28 16:13:09,298] [47418] [main] INFO  com.tgr.selenium.abs.AbsTest - INICIO -----> ESPERA:5 / SEGUNDOS
+[2025-05-28 16:13:14,301] [52421] [main] INFO  com.tgr.selenium.abs.AbsTest - FIN    -----> ESPERA:5 / SEGUNDOS
+[2025-05-28 16:13:14,386] [52506] [main] INFO  com.tgr.selenium.abs.AbsTest - Captura de pantalla URL: https://www.tgr.cl/ - Nombre imagen: carga tgr.png
+[2025-05-28 16:13:14,833] [52953] [main] INFO  com.tgr.selenium.abs.AbsTest - INICIANDO @AFTER tearDown():com.tgr.script.tgr_web_prod
