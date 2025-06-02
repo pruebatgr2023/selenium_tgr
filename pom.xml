@@ -30,12 +30,6 @@
       <version>4.15.0</version>
     </dependency>
 
-    <!-- Logging -->
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-core</artifactId>
-      <version>2.20.0</version>
-    </dependency>
 
     <!-- Apache HttpClient -->
     <dependency>
@@ -73,13 +67,6 @@
       <version>5.0.9</version>
     </dependency>
 
-    <!-- SLF4J -->
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <version>1.7.30</version>
-    </dependency>
-
     <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
@@ -98,12 +85,6 @@
     <version>1.2.11</version>
 </dependency>
 
-
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-core</artifactId>
-    <version>2.20.0</version>
-</dependency>
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-api</artifactId>
@@ -132,24 +113,6 @@
           </suiteXmlFiles>
         </configuration>
       </plugin>
-      <plugin>
-  <groupId>org.codehaus.mojo</groupId>
-  <artifactId>testng-xslt-plugin</artifactId>
-  <version>1.1</version>
-  <executions>
-    <execution>
-      <phase>verify</phase>
-      <goals>
-        <goal>generate</goal>
-      </goals>
-      <configuration>
-        <outputDir>${project.build.directory}/testng-xslt</outputDir>
-        <reportDir>${project.build.directory}/surefire-reports</reportDir>
-        <testNgXsltVersion>1.1</testNgXsltVersion>
-      </configuration>
-    </execution>
-  </executions>
-</plugin>
     </plugins>
   </build>
 
