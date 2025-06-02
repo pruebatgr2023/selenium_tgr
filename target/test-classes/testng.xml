@@ -1,12 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Suite de pruebas TGR">
-  <listeners>
-    <listener class-name="utils.ExtentReportListener" />
-  </listeners>
+<suite name="Suite de Pruebas de Automatización">
 
-  <test name="TGR Web Producción">
-    <classes>
-      <class name="com.tgr.script.tgr_web_prod" />
-    </classes>
-  </test>
+    <listeners>
+        <listener class-name="utils.ExtentReportListener" />
+    </listeners>
+
+    <test name="Pruebas Web de Producción">
+        <classes>
+            <class name="com.tgr.script.tgr_web_prod" />
+        </classes>
+    </test>
 </suite>
