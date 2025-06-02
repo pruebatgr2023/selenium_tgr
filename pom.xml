@@ -132,6 +132,24 @@
           </suiteXmlFiles>
         </configuration>
       </plugin>
+      <plugin>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>testng-xslt-plugin</artifactId>
+  <version>1.1</version>
+  <executions>
+    <execution>
+      <phase>verify</phase>
+      <goals>
+        <goal>generate</goal>
+      </goals>
+      <configuration>
+        <outputDir>${project.build.directory}/testng-xslt</outputDir>
+        <reportDir>${project.build.directory}/surefire-reports</reportDir>
+        <testNgXsltVersion>1.1</testNgXsltVersion>
+      </configuration>
+    </execution>
+  </executions>
+</plugin>
     </plugins>
   </build>
 

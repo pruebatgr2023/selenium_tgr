@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-30T10:24:56 GMT-04:00" name="Surefire suite" finished-at="2025-05-30T10:25:20 GMT-04:00" duration-ms="23929">
+  <suite started-at="2025-06-02T11:36:27 GMT-04:00" name="TGR Selenium Suite" finished-at="2025-06-02T11:36:27 GMT-04:00" duration-ms="9">
     <groups>
     </groups>
-    <test started-at="2025-05-30T10:24:56 GMT-04:00" name="Surefire test" finished-at="2025-05-30T10:25:20 GMT-04:00" duration-ms="23929">
-      <class name="com.tgr.script.tgr_web_prod">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tgr.script.tgr_web_prod@6dc17b83]" started-at="2025-05-30T10:24:56 GMT-04:00" name="setUp" finished-at="2025-05-30T10:24:58 GMT-04:00" duration-ms="1676" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.tgr.script.tgr_web_prod@6dc17b83]" started-at="2025-05-30T10:24:58 GMT-04:00" name="test" finished-at="2025-05-30T10:25:20 GMT-04:00" duration-ms="22205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tgr.script.tgr_web_prod@6dc17b83]" started-at="2025-05-30T10:25:20 GMT-04:00" name="tearDown" finished-at="2025-05-30T10:25:20 GMT-04:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.tgr.script.tgr_web_prod -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    <test started-at="2025-06-02T11:36:27 GMT-04:00" name="Selenium Tests" finished-at="2025-06-02T11:36:27 GMT-04:00" duration-ms="9">
+    </test> <!-- Selenium Tests -->
+  </suite> <!-- TGR Selenium Suite -->
 </testng-results>
